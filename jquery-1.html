@@ -27,8 +27,18 @@ function undo(){
   $('h2').show();
   $('h3').show();
 }
+function highlightByline(){
+  $('.byline').addClass('highlightByline');}
+function unHighlightByline(){
+  $('.byline').removeClass('highlightByline')
+}
 </script>
+<style>
+.highlightByline {
+  background: yellow;
+}
 
+</style>
 </head>
 <body>
   <h1>Lorem ipsum</h1>
